@@ -1,3 +1,4 @@
+@import "./palette.scss";
 body {
   font-family: sans-serif;
   display: flex;
@@ -128,4 +129,22 @@ figcaption {
   color: gray;
   font-size: 0.75rem;
   padding-top: 0.5rem;
+}
+
+.band {
+  position: absolute;
+  top: 1rem;
+  padding: 1rem;
+  background-color: $emphasis-color;
+  color: white;
+  border-radius: 1rem;
+}
+
+.band a {
+  color: white;
+  text-decoration: underline;
+}
+
+.band a:hover {
+  color: $selection-color;
 }
