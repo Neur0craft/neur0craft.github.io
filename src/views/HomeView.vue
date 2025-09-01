@@ -21,5 +21,3 @@ Contact us at: ericyan534@gmail.com
 
 `;
 </script>
-
-<style scoped></style>
