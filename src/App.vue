@@ -5,7 +5,7 @@
         <RouterLink to="/">
           <h1 class="title">Neurøcraft</h1>
         </RouterLink>
-        <h4>Blog</h4>
+        <a href="https://github.com/neur0craft/">Github Homepage -></a>
       </nav>
       <hr />
       <h3>Recent Posts</h3>
