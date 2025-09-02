@@ -6,14 +6,21 @@ body {
   margin: 0;
 }
 
+div.page-under-development {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  gap: 2em;
+}
+
 div.app {
   display: flex;
   flex-direction: row;
   gap: 5rem;
   max-width: 80em;
   width: 100%;
-  padding: 1em;
-  margin-top: 5rem;
+  // padding: 1em;
 }
 
 div.sidebar {
@@ -64,7 +71,7 @@ div.meta {
     flex-direction: column;
     padding: 0;
     gap: 1rem;
-    margin: 2rem;
+    padding: 2rem;
   }
 
   div.sidebar-content,
@@ -132,12 +139,13 @@ figcaption {
 }
 
 .band {
-  position: absolute;
+  // position: absolute;
   top: 1rem;
   padding: 1rem;
   background-color: $emphasis-color;
   color: white;
   border-radius: 1rem;
+  width: 100%;
 }
 
 .band a {
