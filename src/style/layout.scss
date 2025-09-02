@@ -148,3 +148,11 @@ figcaption {
 .band a:hover {
   color: $selection-color;
 }
+
+blockquote {
+  border-left: 4px solid $emphasis-color;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #555;
+}

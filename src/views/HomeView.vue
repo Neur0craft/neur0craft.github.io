@@ -9,6 +9,12 @@ import MarkdownCompiler from "@/components/MarkdownCompiler.vue";
 
 const markdownContent = `
 # Welcome to Neurøcraft
+
+> If you are interested in joining
+ [Sign up ->](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__kbEWuxUOVVUVUQ2RjhRS1lQRTk3SzRMNkNIV0tYWS4u)
+
+<br/>
+
 We engage in activities such as:
 - Data Analysis
 - Machine Learning
